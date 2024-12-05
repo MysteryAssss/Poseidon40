@@ -3,7 +3,7 @@
     keymap_transform_0: keymap_transform_0 {
         compatible = "zmk,physical-layout";
         display-name = "Layout 1";
-        transform = <&ms60_all_transform>;
+        transform = <&poseidon40_all_transform>;
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
             , <&key_physical_attrs 100 100  100    0       0     0     0>
@@ -53,9 +53,9 @@
 
     position_map {
         compatible = "zmk,physical-layout-position-map";
-
+        physical-layout = <&ms60_all>;
         layout_0 {
-            physical-layout = <&layout_0>;
+            physical-layout = <&keymap_transform_0>;
             positions = <>;
         };
     };
