@@ -1,6 +1,6 @@
 #include <physical_layouts.dtsi>
 / {
-    layout_0: layout_0 {
+    keymap_transform_0: keymap_transform_0 {
         compatible = "zmk,physical-layout";
         display-name = "Layout 0";
 
