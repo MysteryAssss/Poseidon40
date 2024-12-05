@@ -16,7 +16,7 @@
         zmk,matrix_transform = &default_transform;
 	};
 
-	keymap_transform_0: keymap_transform_0 {
+	poseidon40_all_transform: poseidon40_all_transform {
         compatible = "zmk,matrix-transform";
         columns = <12>;
         rows = <4>;
@@ -81,9 +81,10 @@
 	status = "okay"; 
 };
 
-&usbd {
+zephyr_udc0: &usbd {
     status = "okay";
 };
+
 &flash0 {
 	/*
 	 * For more information, see:
