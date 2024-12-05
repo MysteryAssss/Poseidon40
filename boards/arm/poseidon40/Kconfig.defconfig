@@ -1,4 +1,4 @@
-if BOARD_TOAN
+if BOARD_POSEIDON40
 
 config ZMK_KEYBOARD_NAME
 	default "Poseidon_40"
