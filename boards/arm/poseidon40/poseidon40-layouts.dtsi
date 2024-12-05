@@ -53,7 +53,7 @@
 
     position_map {
         compatible = "zmk,physical-layout-position-map";
-        physical-layout = <&ms60_all>;
+        physical-layout = <&keymap_transform_0>;
         layout_0 {
             physical-layout = <&keymap_transform_0>;
             positions = <>;
