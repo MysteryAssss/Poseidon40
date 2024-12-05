@@ -1,5 +1,5 @@
-identifier: toan
-name: toan
+identifier: poseidon40
+name: poseidon40
 type: mcu
 arch: arm
 toolchain:
