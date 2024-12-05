@@ -4,8 +4,8 @@
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/led/led.h>
 / {
-	model = "toan";
-	compatible = "toan";
+	model = "poseidon40";
+	compatible = "poseidon40";
 
 	chosen {
         zephyr,code-partition = &code_partition;
@@ -60,8 +60,8 @@
 		compatible = "zmk,battery-voltage-divider";
 		label = "BATTERY";
 		io-channels = <&adc 1>;
-		output-ohms = <2000000>;
-		full-ohms = <(2000000 + 10000)>;
+		output-ohms = <1000000>;
+		full-ohms = <(1000000 + 820000)>;
 	};
 };
 
