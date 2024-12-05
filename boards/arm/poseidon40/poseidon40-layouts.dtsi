@@ -1,6 +1,6 @@
 #include <physical_layouts.dtsi>
 / {
-    keymap_transform_0: keymap_transform_0 {
+    poseidon40_all: poseidon40_all {
         compatible = "zmk,physical-layout";
         display-name = "Layout 1";
         transform = <&poseidon40_all_transform>;
@@ -53,9 +53,8 @@
 
     position_map {
         compatible = "zmk,physical-layout-position-map";
-        physical-layout = <&keymap_transform_0>;
-        layout_0 {
-            physical-layout = <&keymap_transform_0>;
+        poseidon40_all {
+            physical-layout = <&poseidon40_all_transform>;
             positions = <>;
         };
     };
